@@ -14,6 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
+*.gz
 lib/
 lib64/
 parts/
@@ -174,3 +175,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Ignore dataset files
+data/
+*.zip
+*.mat
